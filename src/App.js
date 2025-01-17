@@ -20,6 +20,7 @@ export default class App extends React.Component {
       <div className="component-app">
         <Display value={this.state.next || this.state.total || "0"} operation={this.state.operation} />
         <ButtonPanel clickHandler={this.handleClick} />
+        <div></div>
       </div>
     );
   }
